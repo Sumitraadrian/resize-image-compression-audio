@@ -132,7 +132,7 @@ def display_convert_audio():
 
 def display_landing_page():
     # Tampilkan tampilan landing page dengan pesan selamat datang
-    st.title("Selamat datang")  # Ubah judul halaman utama menjadi lebih besar
+    st.title("Selamat Datang")  # Ubah judul halaman utama menjadi lebih besar
     st.markdown("<h2>Di Media Processing App</h1>", unsafe_allow_html=True)  # Teks "Selamat Datang" dalam ukuran besar
     st.write("Hadir dengan menyediakan solusi lengkap untuk pengolahan media secara efisien. Dari mengubah ukuran gambar hingga mengompres audio dan mengonversi format audio, yang dapat membantu Anda memenuhi kebutuhan pengolahan media Anda.")
     st.write("Pilih opsi di sebelah kiri untuk memulai pengolahan media.")
